@@ -1,6 +1,9 @@
 import java.util.Scanner;
 class First{
     public static void main(String[] args) {
-        System.out.println("Bhosdike");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter something: ");
+        String input = sc.nextLine();
+        System.out.println("You entered: " + input);
     }
 }
